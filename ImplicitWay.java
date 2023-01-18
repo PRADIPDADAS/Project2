@@ -13,6 +13,7 @@ public class ImplicitWay {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://demo.actitime.com/login.do");
+		System.out.println("True");
 	}
 
 }
